@@ -31,12 +31,12 @@
 
             <div class="inputColumn">
                 <label for="email">Email Address</label>
-                <input type="text" id="email" placeholder="Required" />
+                <input type="email" id="email" placeholder="Required" />
             </div>
 
             <div class="inputColumn">
                 <label for="phonenumber">Phone Number</label>
-                <input type="text" id="phonenumber" />
+                <input type="tel" id="phonenumber" />
             </div>
 
             <div class="inputColumn">
@@ -269,28 +269,28 @@
             <p>Select the newspapper you would like to receive</p>
             <div class="inputRow">
                 <input type="checkbox" name="html_news" id="html_news" checked>
-                <label>HTML News</label>
+                <label for="html_news">HTML News</label>
             </div>
             <div class="inputRow">
                 <input type="checkbox" name="css news" id="css_news" checked>
-                <label>CSS News</label>
+                <label for="css_news">CSS News</label>
             </div>
             <div class="inputRow">
                 <input type="checkbox" name="javascript news" id="javascript_news" checked>
-                <label>Javascript News</label>
+                <label for="javascript_news">Javascript News</label>
             </div>
             <p>Newletter format</p>
             <div class="inputRow">
-                <input type="radio" name="html" id="html" checked>
-                <label>HTML</label>
+                <input type="radio" name="newletter_format" id="html" checked>
+                <label for="html">HTML</label>
             </div>
             <div class="inputRow">
-                <input type="radio" name="plain text" id="plain_text" checked>
-                <label>Plain text</label>
+                <input type="radio" name="newletter_format" id="plain_text">
+                <label for="plain_text">Plain text</label>
             </div>
             <div class="othertopics">
-                <label>Other topics you like to hear about</label>
-                <textarea name="name"></textarea>
+                <label for="other">Other topics you like to hear about</label>
+                <textarea name="othertopics" id="other"></textarea>
             </div>
 
             <button>Sign Up</button>
